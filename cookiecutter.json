@@ -1,0 +1,16 @@
+{
+  "full_name": "Josh Michael Karamuth",
+  "email": "michael@confuzeus.com",
+  "github_username": "confuzeus",
+  "project_name": "Django App",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "A Django app to make developing Django apps easier.",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.1.0",
+  "use_pytest": "n",
+  "use_black": "n",
+  "use_pypi_deployment_with_travis": "y",
+  "add_pyup_badge": "n",
+  "create_author_file": "y",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
